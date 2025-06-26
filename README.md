@@ -128,12 +128,7 @@ This project demonstrates SQL querying skills applied to a medical clinic relati
     GROUP BY MONTHNAME(dateOfAppointment),MONTH(dateOfAppointment)
     ORDER BY MONTH(dateOfAppointment);
     ```
----
-
-> **Note:**  
-> The original database is not included due to privacy and copyright.  
-> Adjust table/column names as needed for your database schema.
-
+    
 ---
  
 ## Key Insights
@@ -151,6 +146,10 @@ This project demonstrates SQL querying skills applied to a medical clinic relati
 4. Review your database schema and relational model, then use my sample queries as a template or reference.
 5. Open SQL_Queries.sql in SQL Workbench/J or MySQL Workbench.
 6. Run each query independently and review the results.
+
+> **Note:**  
+> The original database is not included due to privacy and copyright.  
+> Adjust table/column names as needed for your database schema.
 
 ---
 
