@@ -33,7 +33,7 @@ This project demonstrates SQL querying skills applied to a medical clinic relati
 - **Dataset:** Doctor’s SuperClinic (RMIT).
 - **Key Tables:** `patient`, `doctor`, `appointment`, `disease`, `drug`, `room`.
 - **Data Types:** Includes text, numeric, date, and time fields.
-> - **Privacy Notice:** Database and data are not included due to privacy. Queries are written based on the provided schema in the Case Study PDF.
+> - **Privacy Notice:** Database and data are not included due to privacy. Queries are written based on the provided schema in the case study PDF.
 
 ---
 
