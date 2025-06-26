@@ -164,7 +164,7 @@ This project demonstrates SQL querying skills applied to a medical clinic relati
 
 ## Acknowledgments
 - Database brief: RMIT University.
-- SQL tools: MySQL, MariaDB, SQL Workbench/J.
+- SQL tools: MySQL, SQL Workbench.
 ---
 
 ## Author
