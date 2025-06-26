@@ -130,6 +130,12 @@ This project demonstrates SQL querying skills applied to a medical clinic relati
     ```
 ---
 
+> **Note:**  
+> The original database is not included due to privacy and copyright.  
+> Adjust table/column names as needed for your database schema.
+
+---
+ 
 ## Key Insights
 - The database supports detailed operational and clinical reporting.
 - The majority of analytic needs (patient demographics, appointments, staff activity) can be met with targeted SQL.
@@ -173,8 +179,6 @@ Nik Phan | RMIT University
 Final year student, Bachelor of Business Information Systems (Expected November 2025)
 
 ---
-
-
     
 
 
