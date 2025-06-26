@@ -55,14 +55,14 @@ This project demonstrates SQL querying skills applied to a medical clinic relati
    ```
 
 2. **Male patients over 50 in WOODSTOCK, oldest to youngest**   
-  ```sql
-  SELECT CONCAT(surname,', ', given) AS full_name, 
-       TRUNCATE(DATEDIFF(SYSDATE(), dob)/365,0) AS age
-  FROM patient 
-  WHERE suburb = 'WOODSTOCK' AND sex = 'M'
-  AND TRUNCATE(DATEDIFF(SYSDATE(), dob)/365,0) > 50
-  ORDER BY dob DESC;
-  ```
+   ```sql
+   SELECT CONCAT(surname,', ', given) AS full_name, 
+   TRUNCATE(DATEDIFF(SYSDATE(), dob)/365,0) AS age
+   FROM patient 
+   WHERE suburb = 'WOODSTOCK' AND sex = 'M'
+   AND TRUNCATE(DATEDIFF(SYSDATE(), dob)/365,0) > 50
+   ORDER BY dob DESC;
+   ```
 
 3. **Morning completed appointments in Room 2, Feb 2022**
    ```sql
@@ -112,13 +112,13 @@ This project demonstrates SQL querying skills applied to a medical clinic relati
    HAVING COUNT(*) <100;
    ```
 
-9.**Doctors with less than 5000 appointments in 2021**
-  ```sql
-  FROM appointment
-  WHERE DATE_FORMAT(dateOfAppointment, '%Y') = '2021'
-  GROUP BY doctorID
-  HAVING COUNT(*) < 5000;
-  ```
+9. **Doctors with less than 5000 appointments in 2021**
+   ```sql
+   FROM appointment
+   WHERE DATE_FORMAT(dateOfAppointment, '%Y') = '2021'
+   GROUP BY doctorID
+   HAVING COUNT(*) < 5000;
+   ```
 
 10. **Appointments per month in 2021 (month order)**
     ```sql
